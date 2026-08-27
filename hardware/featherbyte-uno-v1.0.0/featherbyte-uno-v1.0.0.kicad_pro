@@ -276,9 +276,18 @@
       {
         "bus_width": 12,
         "line_style": 0,
-        "name": "GND",
+        "name": "CANBUS",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 1,
+        "schematic_color": "rgb(116, 118, 255)",
+        "wire_width": 12
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "GND",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 3,
         "schematic_color": "rgb(0, 0, 0)",
         "wire_width": 18
       },
@@ -287,16 +296,25 @@
         "line_style": 0,
         "name": "OSCILLATOR",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
-        "schematic_color": "rgb(35, 176, 181)",
-        "wire_width": 6
+        "priority": 4,
+        "schematic_color": "rgb(201, 138, 0)",
+        "wire_width": 12
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "SWD",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgb(41, 169, 255)",
+        "wire_width": 12
       },
       {
         "bus_width": 12,
         "line_style": 0,
         "name": "SYS_PWR",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 2,
         "schematic_color": "rgb(255, 24, 0)",
         "wire_width": 18
       },
@@ -305,25 +323,25 @@
         "line_style": 0,
         "name": "USBD",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
+        "priority": 6,
         "schematic_color": "rgb(236, 68, 255)",
-        "wire_width": 6
+        "wire_width": 12
       },
       {
         "bus_width": 18,
         "line_style": 0,
         "name": "USBHD",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 5,
         "schematic_color": "rgb(136, 2, 255)",
-        "wire_width": 6
+        "wire_width": 12
       },
       {
         "bus_width": 12,
         "line_style": 0,
         "name": "VBUS",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 5,
+        "priority": 7,
         "schematic_color": "rgb(0, 211, 41)",
         "wire_width": 18
       }
@@ -361,6 +379,22 @@
       {
         "netclass": "SYS_PWR",
         "pattern": "*+5V*"
+      },
+      {
+        "netclass": "CANBUS",
+        "pattern": "*CAN*"
+      },
+      {
+        "netclass": "SWD",
+        "pattern": "*SW*"
+      },
+      {
+        "netclass": "SWD",
+        "pattern": "*NRST"
+      },
+      {
+        "netclass": "SWD",
+        "pattern": "*BOOT*"
       }
     ]
   },
