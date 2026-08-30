@@ -7291,6 +7291,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 105.41) (xy 96.52 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17663307-437c-41a0-8f94-4da384b1e477")
+	)
+	(wire
+		(pts
 			(xy 127 41.91) (xy 125.73 41.91)
 		)
 		(stroke
@@ -7478,16 +7488,6 @@
 			(type default)
 		)
 		(uuid "24600b35-16df-458c-a852-c1de7127a439")
-	)
-	(wire
-		(pts
-			(xy 93.98 105.41) (xy 96.52 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "251cd761-f9f8-47ea-9174-112513919b88")
 	)
 	(wire
 		(pts
@@ -9721,16 +9721,6 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 102.87) (xy 96.52 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c37565ea-c457-4612-93ab-bbd4f8ebcb30")
-	)
-	(wire
-		(pts
 			(xy 77.47 52.07) (xy 77.47 53.34)
 		)
 		(stroke
@@ -9908,6 +9898,16 @@
 			(type default)
 		)
 		(uuid "d110821c-eb9b-4c15-a11a-f4c80edeed52")
+	)
+	(wire
+		(pts
+			(xy 93.98 102.87) (xy 96.52 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d145d41d-b08e-4bae-8800-220ef9a416da")
 	)
 	(wire
 		(pts
@@ -18780,7 +18780,8 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 101.6 102.87 0)
+		(at 101.6 105.41 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18788,7 +18789,7 @@
 		(dnp no)
 		(uuid "f2f318f2-4c42-470e-9fe3-9f4162d82f95")
 		(property "Reference" "J7"
-			(at 100.33 100.076 0)
+			(at 100.838 100.584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18797,7 +18798,7 @@
 			)
 		)
 		(property "Value" "Terminal Block"
-			(at 96.52 108.458 0)
+			(at 96.52 108.204 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18806,7 +18807,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
-			(at 101.6 102.87 0)
+			(at 101.6 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18815,7 +18816,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 101.6 102.87 0)
+			(at 101.6 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18824,7 +18825,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 101.6 102.87 0)
+			(at 101.6 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
