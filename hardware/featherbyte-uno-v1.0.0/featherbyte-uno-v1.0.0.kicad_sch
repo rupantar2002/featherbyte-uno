@@ -8096,7 +8096,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 135.89) (xy 33.02 135.89)
+			(xy 39.37 137.16) (xy 33.02 137.16)
 		)
 		(stroke
 			(width 0)
@@ -8893,6 +8893,16 @@
 			(type default)
 		)
 		(uuid "7ab58a84-93ef-4add-8885-6ce955cfbe60")
+	)
+	(wire
+		(pts
+			(xy 199.39 140.97) (xy 204.47 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b24b307-09ce-4507-a566-2ae17a062167")
 	)
 	(wire
 		(pts
@@ -10206,6 +10216,16 @@
 	)
 	(wire
 		(pts
+			(xy 199.39 138.43) (xy 204.47 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d87c02db-09b7-430d-a8e6-012401650171")
+	)
+	(wire
+		(pts
 			(xy 93.98 132.08) (xy 96.52 132.08)
 		)
 		(stroke
@@ -10756,7 +10776,7 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 135.89) (xy 25.4 135.89)
+			(xy 19.05 137.16) (xy 25.4 137.16)
 		)
 		(stroke
 			(width 0)
@@ -11135,7 +11155,7 @@
 		(uuid "5ede9abe-3090-48d3-a4eb-35fd12f74e78")
 	)
 	(label "SCL"
-		(at 209.55 158.75 0)
+		(at 199.39 138.43 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11505,7 +11525,7 @@
 		(uuid "adebd47c-12d0-4a2b-af80-65d0e959aaab")
 	)
 	(label "SCL"
-		(at 39.37 135.89 180)
+		(at 39.37 137.16 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11595,7 +11615,7 @@
 		(uuid "c4135100-edd6-4561-849d-1e92d5c6f6f0")
 	)
 	(label "SDA"
-		(at 209.55 161.29 0)
+		(at 199.39 140.97 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11675,7 +11695,7 @@
 		(uuid "d9f341a0-83bc-4d33-a87c-eaa6358ebd69")
 	)
 	(label "A5"
-		(at 19.05 135.89 0)
+		(at 19.05 137.16 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13650,6 +13670,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 29.21 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "4c7d6ee0-bf83-432b-93ff-09af999ba796")
+		(property "Reference" "JP2"
+			(at 29.21 127.508 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper"
+			(at 29.21 131.572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+			(at 29.21 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 29.21 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 29.21 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9d6baa60-aa50-4217-9c98-fed867795b06")
+		)
+		(pin "1"
+			(uuid "965921a9-98a6-444f-873e-3915dc3e5499")
+		)
+		(instances
+			(project "featherbyte-uno-v1.0.0"
+				(path "/9057772d-fe42-4f07-905a-9d3ca3415356"
+					(reference "JP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VBUS")
 		(at 69.85 45.72 0)
 		(unit 1)
@@ -14046,75 +14133,6 @@
 			(project "featherbyte-uno-v1.0.0"
 				(path "/9057772d-fe42-4f07-905a-9d3ca3415356"
 					(reference "C9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 29.21 129.54 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6b1915f9-4a1f-4b8d-8441-ad5a4822538d")
-		(property "Reference" "R11"
-			(at 29.21 127.254 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0R"
-			(at 32.766 127.254 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 29.21 131.318 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 29.21 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 29.21 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8df0a12c-e6b3-4ba0-9f61-d7d4dc9ab39c")
-		)
-		(pin "2"
-			(uuid "6811b2c5-7aff-4b34-ba98-f96a588eee33")
-		)
-		(instances
-			(project "featherbyte-uno-v1.0.0"
-				(path "/9057772d-fe42-4f07-905a-9d3ca3415356"
-					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -15031,6 +15049,73 @@
 			(project "featherbyte-uno-v1.0.0"
 				(path "/9057772d-fe42-4f07-905a-9d3ca3415356"
 					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 29.21 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "85d67796-34dd-4c73-9a02-defcbe66841b")
+		(property "Reference" "JP3"
+			(at 29.21 134.874 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper2"
+			(at 29.21 139.192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+			(at 29.21 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 29.21 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 29.21 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7a13b1d1-c183-465f-8140-e6f21052f886")
+		)
+		(pin "1"
+			(uuid "72319a31-2de0-46b6-825d-b19a0dbf9565")
+		)
+		(instances
+			(project "featherbyte-uno-v1.0.0"
+				(path "/9057772d-fe42-4f07-905a-9d3ca3415356"
+					(reference "JP3")
 					(unit 1)
 				)
 			)
@@ -17295,75 +17380,6 @@
 			(project "featherbyte-uno-v1.0.0"
 				(path "/9057772d-fe42-4f07-905a-9d3ca3415356"
 					(reference "R15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 29.21 135.89 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ba3fc14e-209a-48f1-affa-56ec1f5478fc")
-		(property "Reference" "R12"
-			(at 29.21 133.604 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0R"
-			(at 32.766 133.604 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 29.21 137.668 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 29.21 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 29.21 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4016ab93-0f3d-4bbd-8785-7c0030d730c3")
-		)
-		(pin "2"
-			(uuid "6866ff6a-30ec-4f6e-84c5-1c836c31e44d")
-		)
-		(instances
-			(project "featherbyte-uno-v1.0.0"
-				(path "/9057772d-fe42-4f07-905a-9d3ca3415356"
-					(reference "R12")
 					(unit 1)
 				)
 			)
