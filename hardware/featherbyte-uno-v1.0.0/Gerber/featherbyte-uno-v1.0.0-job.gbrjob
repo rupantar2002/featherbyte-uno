@@ -5,13 +5,13 @@
       "Application": "Pcbnew",
       "Version": "9.0.9"
     },
-    "CreationDate": "2026-09-07T22:05:22+05:30"
+    "CreationDate": "2026-09-14T23:42:05+05:30"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "featherbyte-uno-v1.0.0",
       "GUID": "66656174-6865-4726-9279-74652d756e6f",
-      "Revision": "rev?"
+      "Revision": "v1.2.0"
     },
     "Size": {
       "X": 54.055,
