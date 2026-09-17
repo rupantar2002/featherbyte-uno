@@ -7,7 +7,7 @@
 
   USB-C • Arduino-compatible headers • CAN • Open hardware
 
-  [Hardware](#hardware) · [Capabilities](#capabilities) · [Getting started](#getting-started) · [Manufacturing](#manufacturing) · [Project status](#project-status)
+  [Hardware](#hardware) · [References](#reference-documents) · [Getting started](#getting-started) · [Manufacturing](#manufacturing) · [Project status](#project-status)
 </div>
 
 <p align="center">
@@ -89,8 +89,21 @@ The images above show an assembled Featherbyte Uno prototype on the bench.
 │       ├── 3d/                               # component STEP models
 │       ├── footprints/                       # custom footprints
 │       └── sym/                              # project symbol libraries
+├── docs/                                     # schematic and component references
 └── images/                                   # board renders used here
 ```
+
+## Reference documents
+
+The documents below are checked into the repository for offline design review and bring-up.
+
+| Document | Purpose |
+| --- | --- |
+| [Featherbyte Uno schematics v1.2.0](docs/schematics-v1.2.0.pdf) | Current schematic reference export |
+| [CH32V203 datasheet](docs/CH32V203DS0.PDF) | MCU electrical characteristics, pin functions, and package details |
+| [CH32FV2x / V3x reference manual](docs/CH32FV2x_V3xRM.PDF) | MCU peripherals, registers, and programming reference |
+| [QingKe V4 processor manual](docs/QingKeV4_Processor_Manual.PDF) | RISC-V core architecture and instruction-set reference |
+| [TJA1050 datasheet](docs/TJA1050.pdf) | High-speed CAN transceiver reference |
 
 ## Getting started
 
