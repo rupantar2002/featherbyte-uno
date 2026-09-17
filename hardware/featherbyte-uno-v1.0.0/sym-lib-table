@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "TJA1050")(type "KiCad")(uri "${KIPRJMOD}/sym/TJA1050.kicad_sym")(options "")(descr ""))
+  (lib (name "WCH")(type "KiCad")(uri "${KIPRJMOD}/sym/WCH.kicad_sym")(options "")(descr ""))
+)
